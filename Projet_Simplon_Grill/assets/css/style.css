@@ -1,0 +1,158 @@
+/* Import font google */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;900&family=Roboto:wght@900&display=swap');
+
+body{
+    color: #B09C64 ;
+}
+/* FONT FAMILY */
+h1,h2, nav{
+    font-family: 'Roboto', sans-serif;
+}
+h3,h4{
+    font-family: 'Roboto Slab', serif;
+}
+/* FONT WEIGHT */
+h1,h2,h3,h4{
+    font-weight: 900;
+}
+p, body{
+    font-weight: 400;
+}
+/* FONT SIZE */
+h1{
+    font-size: 12rem;
+    text-transform: uppercase;
+    letter-spacing: -0.2rem;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: 8px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+/* CSS NAV BAR *//* CSS NAV BAR *//* CSS NAV BAR *//* CSS NAV BAR *//* CSS NAV BAR */
+/* CSS NAV BAR *//* CSS NAV BAR *//* CSS NAV BAR *//* CSS NAV BAR *//* CSS NAV BAR */
+
+nav{
+    background-color: #B09C64;
+    color: #2a2b2a;
+    display: inline-flex;
+    width: 100%;
+    height: 5vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    position: sticky; 
+    top: 0;
+    z-index: 999;
+}
+
+.nav-items{
+    text-transform: uppercase;
+    display: inline-flex;
+    width: 100%;
+    margin: 0 20%;
+    justify-content: space-evenly;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+}
+
+.nav-items a:hover{
+    color: #EFE9E9;
+    transition: 0.3s;
+}
+.home{
+    color: #EFE9E9;
+}
+
+/* CSS HEADER *//* CSS HEADER *//* CSS HEADER *//* CSS HEADER */
+/* CSS HEADER *//* CSS HEADER *//* CSS HEADER *//* CSS HEADER */
+
+header{
+    height: 95vh;
+    background-image: url(../img/grill.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(50%);
+}
+.header-info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #2a2b2a;
+    font-style: italic;
+    padding: 8px;
+}
+
+.marque{
+    color: #EFE9E9;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    padding-top: 10%;
+}
+
+/* CSS A PROPOS *//* CSS A PROPOS *//* CSS A PROPOS *//* CSS A PROPOS */
+/* CSS A PROPOS *//* CSS A PROPOS *//* CSS A PROPOS *//* CSS A PROPOS */
+
+#about-bg{
+    background-image: url(../img/restaurant.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+#about{
+background-color: rgb(42, 43, 42,0.9);
+height: 800px;
+}
+
+/* CSS RESERVATIONS *//* CSS RESERVATIONS *//* CSS RESERVATIONS *//* CSS RESERVATIONS */
+/* CSS RESERVATIONS *//* CSS RESERVATIONS *//* CSS RESERVATIONS *//* CSS RESERVATIONS */
+
+#reservations-bg{
+    background-image: url(../img/cow.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#reservations{
+    background-color: rgb(176, 156, 100,0.9);
+    color: #EFE9E9;
+    height: 400px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#reservations form select{
+    background-color: #EFE9E9;
+    color: #2a2b2a;
+}
+#reservations form input{
+    background-color: #786444;
+    color: #EFE9E9;
+    cursor: pointer;
+}
+#reservations form select, #reservations form input{
+    margin: 10px;
+    padding: 10px;
+    width: fit-content;
+}
+
+/* .reserved{
+    background-color: red;
+} */
